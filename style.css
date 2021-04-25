@@ -72,7 +72,7 @@ header{
     padding-right: 50px;
 }
 
-h2{
+article h2{
     text-transform: uppercase;
     font-weight: normal;
 }
@@ -85,4 +85,45 @@ h2{
     margin-top: 30px;
     padding-left: 170px;
     padding-right: 170px;
+}
+
+footer{
+    background-color: rgb(97, 9, 197);
+    margin: 0px 80px 30px 80px;
+}
+
+#copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer h2{
+    font-weight: normal;
+    font-size: 1em;
+}
+
+#reseaux_sociaux{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0px 500px 0px 500px;
+    color: rgb(185, 139, 206);
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: rgb(185, 139, 206);
+}
+
+.colonne{
+    color: whitesmoke;
+}
+
+.colonne p{
+    padding-left: 20px;
 }
