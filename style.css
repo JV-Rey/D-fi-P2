@@ -5,6 +5,7 @@
 
 body{
     width: auto;
+    max-width: 1680px;
     margin: auto;
     font-family: 'Roboto', arial;
 }
@@ -15,7 +16,7 @@ header{
 }
 
 #logo{
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 30px;
 }
 
@@ -29,4 +30,20 @@ header{
 
 .nav_li{
     margin-right: 30px;
+}
+
+#banniere_img{
+    background-image: url(Images/backgroung_image.jpg);
+    position: absolute;
+    width: 1500px;
+    margin-left: 100px;
+    padding-top: 50px;
+    height: 700px;
+}
+
+#banniere_logo{
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
 }
