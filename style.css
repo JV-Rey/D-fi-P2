@@ -34,7 +34,6 @@ header{
 
 #banniere_img{
     background-image: url(Images/backgroung_image.jpg);
-    position: absolute;
     width: 1500px;
     margin-left: 100px;
     padding-top: 50px;
@@ -46,4 +45,44 @@ header{
     margin-top: 200px;
     text-align: center;
     color: white;
+}
+
+#presentation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#intro{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#skill p{
+    font-size: small;
+}
+
+#temoignage{
+    margin-top: 30px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
